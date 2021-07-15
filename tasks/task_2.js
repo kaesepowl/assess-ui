@@ -1,4 +1,4 @@
-function isPalindrome(input) {
+function isPalindrome(s) {
     
 }
 
@@ -6,15 +6,15 @@ function isPalindrome(input) {
 
 describe('Task 2', () => {
     it('should return true', function () {
-        expect(isPalindrome('12221')).toBeTruthy();
+        expect(isPalindrome('12221')).toBe(true);
     });
 
     it('should return false', function () {
-        expect(revert('Interhyp')).toBeFalsy();
+        expect(isPalindrome('Interhyp')).toBe(false);
     });
 
     it('should return true', function () {
-        expect(isPalindrome('Regallager')).toBeTruthy();
+        expect(isPalindrome('Regallager')).toBe(true);
     });
 });
 

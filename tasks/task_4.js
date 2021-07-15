@@ -23,7 +23,7 @@ class Button extends Component {
 
 // ------------------------------------------------------------------------------------
 
-describe('Task 4', () => {
+xdescribe('Task 4', () => {
     it('should call on download', function () {
         const spyOnDownload = jasmine.createSpy();
         const button = shallow(<Button onDownload={spyOnDownload} />);

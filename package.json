@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "test": "cross-env NODE_ENV=test jasmine --config=./jasmine.json"
+    "test": "nodemon --exec 'cross-env NODE_ENV=test jasmine --config=./jasmine.json'"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.7.4",
     "@babel/register": "^7.7.4",
     "@types/jasmine": "^3.5.0",
@@ -14,7 +15,8 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "jasmine": "^3.5.0",
     "jasmine-enzyme": "^7.1.2",
-    "jsdom": "^15.2.1"
+    "jsdom": "^15.2.1",
+    "nodemon": "^2.0.12"
   },
   "dependencies": {
     "@babel/preset-react": "^7.7.4",

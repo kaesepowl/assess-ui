@@ -4,7 +4,7 @@ function likes(names) {
 
 // ------------------------------------------------------------------------------------
 
-describe('Task 6', () => {
+xdescribe('Task 6', () => {
     it('empty', function () {
         expect(likes([])).toBe('no one likes this');
     });
